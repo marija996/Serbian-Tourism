@@ -1,3 +1,8 @@
+$(window).on("load", function(){
+  $('.flexslider').flexslider({animation:"slide",prevText:"", nextText:""});});
+}
+
+
 $('.reservation').on('click', function(event) {
 	event.preventDefault();
 	/* Act on the event */
